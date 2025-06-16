@@ -1,0 +1,77 @@
+#Navbar {
+  position: sticky;     /* Tepaga yopishib turadi */
+  top: 0;               /* Ekranning yuqori qismiga yopishadi */
+  width: 100%;
+  min-height: 60px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 2%;
+
+  background: rgba(255, 255, 255, 0.164); /* Shaffoflik */
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.719);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+
+  z-index: 1000;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+#left {
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#left :first-child {
+  font-size: 26px;
+  font-weight: 900;
+  border-radius: 12px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.1s ease-in-out;
+  padding: 5px 10px 5px 0;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.719);
+}
+#left :first-child:hover {
+  text-shadow: 0 4px 20px rgb(0, 0, 0);
+}
+#left :first-child:active {
+  color: rgba(255, 255, 255, 0.507);
+}
+#right {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+#right button {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.1s ease-in-out;
+  padding: 5px 10px 5px 0;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.719);
+}
+#right button:hover {
+  text-shadow: 0 4px 20px rgb(0, 0, 0);
+}
+#right button:active {
+  color: rgba(255, 255, 255, 0.507);
+}

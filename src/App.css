@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  user-select: none;
+}
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+#root {
+  min-width: 1440px;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: #FF6D00; */
+  background: url("./components/Assets/photos/32b0c6c2-f433-49e5-b783-7c29531cba56.png")
+    no-repeat center center fixed;
+  background-size: 100%; /* yoki 100% 100% */
+  color: white;
+  position: relative;
+}

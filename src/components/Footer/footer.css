@@ -1,0 +1,56 @@
+.footer {
+  width: 100%; /* ✅ Ekranning to‘liq kengligini egallaydi */
+  backdrop-filter: blur(10px);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 16px 16px 0px 0px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.719);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
+  margin-top: 100px
+}
+.footer-logo {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-logo:hover {
+  transform: scale(1.05);
+  color: #fff5eb;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  background: rgba(255, 115, 0, 0.2);
+  padding: 8px 16px;
+  border-radius: 12px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+  background: rgba(255, 115, 0, 0.4);
+  transform: translateY(-3px);
+}
+
+.footer-text {
+  font-size: 0.875rem;
+  color: #f0e6d2;
+  opacity: 0.8;
+  margin-top: 1rem;
+}
